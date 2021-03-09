@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/developedbydmac/CrowdStreet/issues"
   },
-  "homepage": "https://github.com/developedbydmac/CrowdStreet#readme"
+  "homepage": "https://github.com/developedbydmac/CrowdStreet#readme",
+  "devDependencies": {
+    "cypress": "^6.6.0"
+  }
 }
