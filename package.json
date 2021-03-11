@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/cypress open",
-    "test2" : "node_modules/.bin/cypress run"
+    "test2": "node_modules/.bin/cypress run",
+    "dashTest": "npx cypress run --record --key 5d9e868f-e5fb-491d-b964-6681ae48ed77"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/developedbydmac/CrowdStreet#readme",
   "devDependencies": {
-    "cypress": "^6.6.0"
+    "cypress": "^6.6.0",
+    "mocha": "^8.3.1",
+    "mochawesome": "^6.2.2"
   }
 }
