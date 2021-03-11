@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node_modules/.bin/cypress open",
     "test2": "node_modules/.bin/cypress run",
-    "dashTest": "npx cypress run --record --key 5d9e868f-e5fb-491d-b964-6681ae48ed77"
+    "dashTest": "npx cypress run --record --key 5d9e868f-e5fb-491d-b964-6681ae48ed77 --reporter mochawesomme"
   },
   "repository": {
     "type": "git",
