@@ -9,7 +9,7 @@ workflows:
     jobs:
       # "cypress" is the name of the imported orb
       # "run" is the name of the job defined in Cypress orb
-      - cypress/run:
+      - cypress/run --record --key 5d9e868f-e5fb-491d-b964-6681ae48ed77:
           record: true
 
 
