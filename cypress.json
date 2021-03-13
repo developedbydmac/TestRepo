@@ -1,4 +1,5 @@
 {
     "projectId": "w221pk",
-    "reporter": "mochawesome"
+    "reporter": "mochawesome",
+    "testFiles": "**/*.feature"
 }
