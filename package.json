@@ -8,6 +8,15 @@
     "test2": "node_modules/.bin/cypress run",
     "dashTest": "npx cypress run --record --key 5d9e868f-e5fb-491d-b964-6681ae48ed77 --reporter mochawesome"
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/developedbydmac/CrowdStreet.git"
@@ -20,7 +29,9 @@
   "homepage": "https://github.com/developedbydmac/CrowdStreet#readme",
   "devDependencies": {
     "cypress": "^6.6.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
     "mocha": "^8.3.1",
-    "mochawesome": "^6.2.2"
+    "mochawesome": "^6.2.2",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   }
 }
